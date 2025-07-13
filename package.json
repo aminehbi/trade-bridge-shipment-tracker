@@ -3,21 +3,17 @@
   "version": "1.0.0",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node server.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Amine HBI",
   "license": "ISC",
-  "description": "",
+  "description": "Live shipment tracker for Trade Bridge Connect™",
   "dependencies": {
     "axios": "^1.10.0",
     "cors": "^2.8.5",
-    "express": "^5.1.0",
-    "node-fetch": "^3.3.2"
-  }
-  "dependencies": {
     "express": "^4.18.2",
-    "cors": "^2.8.5",
     "node-fetch": "^2.6.11"
+  }
 }
+

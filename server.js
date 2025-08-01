@@ -1,5 +1,7 @@
 const express = require("express");
-const fetch = require("node-fetch");
+// Use the built-in fetch if available, otherwise fall back to node-fetch
+const fetch = global.fetch || ((...args) =>
+  import('node-fetch').then(({ default: fetch }) => fetch(...args)));
 const cors = require("cors");
 const path = require("path");
 
